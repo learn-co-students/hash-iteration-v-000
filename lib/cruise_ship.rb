@@ -7,5 +7,10 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  passengers.select do |k, v|
+    case k
+    when /[a]/
+      return v
+    end
+  end
 end
