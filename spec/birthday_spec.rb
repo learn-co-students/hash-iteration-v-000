@@ -1,10 +1,10 @@
 require_relative "../lib/birthday.rb"
 
-describe "#happy_birthday" do 
-  it "prints out a birthday message to each kid in the birthday_kids hash" do 
+describe "#happy_birthday" do
+  it "prints out a birthday message to each kid in the birthday_kids hash" do
     birthday_kids = {
-      "Timmy" => 9, 
-      "Sarah" => 6, 
+      "Timmy" => 9,
+      "Sarah" => 6,
       "Amanda" => 27
     }
 
