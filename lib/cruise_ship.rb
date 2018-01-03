@@ -9,7 +9,6 @@
 # #e 8:00pm magic show in the super swanky Blue Room. The criteria for picking the winner is that this person
 # must be staying in Suite A and their name must start with the
 # letter "A".
-
 def select_winner(passengers)
     # add the code snippet here!
     winner = ""
