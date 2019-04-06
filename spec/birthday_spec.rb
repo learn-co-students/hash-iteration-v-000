@@ -13,9 +13,9 @@ describe "#happy_birthday" do
   end
 end
 
-## BONUS ##
+
 describe "#age_appropriate_birthday" do
-  pending it "only prints the birthday greeting if the birthday kid 12 or younger" do
+ it "only prints the birthday greeting if the birthday kid 12 or younger" do
     birthday_kids = {
       "Timmy" => 9,
       "Sarah" => 6,
