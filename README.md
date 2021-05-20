@@ -1,4 +1,4 @@
-# Iterating Over Hashes With `#each`
+++# Iterating Over Hashes With `#each`
 
 ## Overview
 
@@ -17,10 +17,7 @@ stored information, but we need to utilize it in some way. This is where
 iteration comes in.
 
 Without iteration, we would have to jump through some serious hoops in order to
-access every key/value pair of our hash. We would have to know the key of each
-pair and write something along the following lines:
-
-```ruby
+access+y
 my_hash = {key1: value1, key2: value2, key3: value3}
 
 my_hash[:key1]
