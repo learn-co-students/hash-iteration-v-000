@@ -1,4 +1,4 @@
-# passengers = {
+#passengers = {
 # suite_a: "Amanda Presley", 
 # suite_b: "Seymour Hoffman", 
 # suite_c: "Alfred Tennyson", 
@@ -7,5 +7,15 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+passengers.each do |suite, name|
+  if suite == :suite_a && name.start_with?("A")
+    return name
 end
+end
+end
+def happy_birthday(birthday_kids)
+  birthday_kids.each do |kids_name, age|
+    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
+  end
+end 
+
