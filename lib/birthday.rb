@@ -5,7 +5,7 @@
 # }
 
 def happy_birthday(birthday_kids)
-  # add your code snippet here!
+  birthday_kids.map{|kid, age| puts "Happy Birthday #{kid}! You are now #{age} years old!"}
 end
 
 
